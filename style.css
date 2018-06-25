@@ -1,0 +1,115 @@
+.red-square{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+
+.a{
+    background-color: red;
+    height: 200px;
+}
+
+.b{
+    height: 200px;
+}
+
+.a1{
+    background-color: #24ff00;
+    height: 300px;
+}
+
+.c{
+    background-color: white;
+    height: auto;
+}
+
+.c1{
+    background-color: #bfbfbf;
+    height: auto;
+}
+
+.navbar{
+    margin-top: 148px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+    background-color: #bfbfbf;
+}
+
+#menu a{
+    color: black;
+    font-weight: bold;
+    
+}
+
+#menu a:hover{
+    background-color: #00309e;
+}
+
+.txt{
+    padding: 2%;
+}
+
+.txt h1{
+    margin-bottom: 3%;
+}
+
+.txt p{
+    margin-top: 3%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    color: blue;
+    display: block; 
+    padding: 5px; 
+    text-decoration: none; 
+}
+
+.vertical-menu a:hover {
+    font-weight: bold;
+}
+
+.vertical-menu a.active {
+    color: blue;
+}
+
+.vmenu{
+display: table;
+margin: 0 auto;
+margin-top: 5%;}
+
+
+@media (max-width: 991px){
+    
+    .navbar{
+    margin-top: 0px;
+    padding-top: 150px;}
+    
+    .navbar-header{
+        background-color: #bfbfbf;
+    }
+    
+    .vmenu{
+        margin-top: 5%;
+        margin-bottom: 5%;}
+    
+    
+    
+}
